@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sdk50s2",
-    "slug": "sdk50s2",
+    "name": "sdk50",
+    "slug": "sdk50",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.sqlitetest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "dev.sqlitetest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "e6b8b1d1-f255-495e-a5e4-64db5f8d5979"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e6b8b1d1-f255-495e-a5e4-64db5f8d5979",
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      }
     }
   }
 }
