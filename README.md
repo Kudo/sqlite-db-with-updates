@@ -1,4 +1,6 @@
-# How to run
+# How to run the problems
 
-`npx expo run:ios --configuration Release`
-`npx expo run:android --variant release`
+```sh
+$ npx expo run:ios --configuration Release
+$ npx expo run:android --variant release
+```
